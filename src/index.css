@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Caramello";
+  src: url("./assets/fonts/Caramello.ttf") format("truetype");
+}
+.caramello {
+  font-family: "Caramello", cursive;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;    
+}
+
